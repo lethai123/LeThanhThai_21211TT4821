@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/all.css">
+</head>
+
+<body>
+    <!-- Header-->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#">
+                            <img src="./public/images/logo.jpg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6 search">
+                        <form action="#" method="get" class="seach-text">
+                            <input type="text" name="search-input" id="search-input">
+                            <button class="ptn-search"></button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Navigation -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">MAIN PAGE</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link mid" href="#">ABOUT OUR SCHOOL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mid" href="#">OUR GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mid" href="#">TRAINING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mid" href="#">LATEST NEWS & EVENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Images Change -->
+        <div class="container">
+            <img src="./public/images/slide-1.jpg" alt="slide1" class="img-fluid" id="images-header">
+            <div class="ptn-prev" onclick="changeImagePrev()">
+                <span></span>
+            </div>
+            <div class="ptn-next" onclick="changeImageNext()">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <div class="container main-text">
+        <div class="row">
+            <!-- Col 1 -->
+            <div class="col-md-4">
+                <h3>
+                    <span class="title_part0">WELCOME</span>
+                    <span class="title_part1">to our</span>
+                    <span class="title_part2">SITE!</span>
+                </h3>
+                <div class="title_part3">
+                    LOREM IPSUM DOLOR SIT AMET, CONSEC TEER ADIPISCING. PRSENT VESTIBULUM.
+                </div>
+                <div class="images-part0">
+                    <img src="./public/images/welcome-1.jpg" alt="welcome1">
+                </div>
+                <div class="images-part1">
+                    <img src="./public/images/welcome-2.jpg" alt="welcome1">
+                </div>
+                <div class="title_part4">
+                    Lorem ipsum dolor sit amet, conc tetur adipi scing. Praesent vestibuum molstie lacuiirhs. Aenean
+                    non
+                    ummy dreriauris. Phasellllus. porta. Fusce suscipit variusium sociis totdnatibus et magis dis
+                    parturient montes, nasceidiculus mus. Nulla dui. Fusce feugiatle. suada odio. Morbi nunc odio,
+                    gravida at.
+                </div>
+                <div class="title_part5">
+                    <a href="#">more info</a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <!-- Col 2 -->
+            <div class="col-md-3 ">
+                <h3>
+                    <span class="title_part6">TECHNICAL</span>
+                    <span class="title_part7">ASPECTS</span>
+
+                </h3>
+                <div class="title_part8">
+                    LOREM IPSUM DOLOR SIT AMET, CONSEC TEER ADIPISCENT VESTIBULUM.
+                </div>
+                <div class="title_part9">
+                    Lorem ipsum dolor sit amet, conc tetur adipi scing. Praesent vestibuum molstie lacuiirhs. Aenean
+                    non
+                    ummy dreriauris. Phasellllus. porta. Fusce suscipit variusium sociis totdna tibus et magis dis
+                    parturient montes, nas.
+                </div>
+                <div class="text-page">
+                    <div class="title_part10">A.</div>
+                    <div class="title_part11">LOREM IPSUM DOLOR SIT AMETNSEC TEER ADIPISCENT VESTIBULUM.</div>
+                </div>
+                <div>
+                    <div class="title_part10">B.</div>
+                    <div class="title_part11">TEER ADIPISCENT VESTIBULUM. MOLESTIE LACUIIRHS. AENEON MY.</div>
+                </div>
+                <div>
+                    <div class="title_part10">C.</div>
+                    <div class="title_part11">MOLESTIE LACUIIRHS. AENEON MY . HENDRERIT. MAURIS.
+                        PHASELLLLUS.</div>
+                </div>
+                <div class="title_part12">
+                    <a href="#">more info</a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <!-- Col 3 -->
+            <div class="col-md-3">
+                <div class="title_part13">LATEST NEWS</div>
+                <div class="block_title">
+                    <div class="title_part14">
+                        <div class="title_part15">sep</div>
+                        <div class="title_part16">25</div>
+                    </div>
+                    <div class="images-part2">
+                        <a href="#">
+                            <img src="./public/images/news-1.jpg" alt="new1">
+                        </a>
+                    </div>
+                    <div class="title_part17">
+                        <div class="title_part18">
+                            LOREM IPSUM DOLOR
+                        </div>
+                        <div class="title_part19">
+                            Lorem ipsum dolor sit amet, conc tetur adipi
+                        </div>
+                    </div>
+                    <div class="title_part20">
+                        <a href="#">more info</a>
+                    </div>
+                </div>
+                <div class="block_title">
+                    <div class="title_part14">
+                        <div class="title_part15">sep</div>
+                        <div class="title_part16">25</div>
+                    </div>
+                    <div class="images-part2">
+                        <a href="#">
+                            <img src="./public/images/news-2.jpg" alt="new1">
+                        </a>
+                    </div>
+                    <div class="title_part17">
+                        <div class="title_part18">
+                            CONSEC TEER ADIPI
+                        </div>
+                        <div class="title_part19">
+                            Amet, conc tetur adipi scing. Praesent ves
+                        </div>
+                    </div>
+                    <div class="title_part20">
+                        <a href="#">more info</a>
+                    </div>
+                </div>
+                <div class="block_title">
+                    <div class="title_part14">
+                        <div class="title_part15">sep</div>
+                        <div class="title_part16">25</div>
+                    </div>
+                    <div class="images-part2">
+                        <a href="#">
+                            <img src="./public/images/news-3.jpg" alt="new1">
+                        </a>
+                    </div>
+                    <div class="title_part17">
+                        <div class="title_part18">
+                            TEER ADIPISCING
+                        </div>
+                        <div class="title_part19">
+                            Conc tetur adipi scing. Praesent vestibuum
+                        </div>
+                    </div>
+                    <div class="title_part20">
+                        <a href="#">more info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Main -->
+    <div class="container bottom-main">
+        <div class="row main-bottom">
+            <div class="col-md-6">
+                <div class="bottom-title1">
+                    Improve Your Goalkeeper Skills
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bottom-title2">
+                    <a href="#">Get in touch with us</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-col">
+            <div class="row ">
+                <div class="col-md-3">
+                    <div class="title-bottom">
+                        OUR FEATURES
+                    </div>
+                    <div class="title-bottom1">
+                        LOREM IPSUM DOLOR SIT AMET, CONSEC.
+                    </div>
+                    <div class="title-bottom2">
+                        Lorem ipsum dolor sit amet, consec teer.
+                    </div>
+                    <div class="title-bottom2">
+                        Lorem ipsum dolor sit amet, consec tetuer adipisc ing. Praesent vestibulum molestie
+                        lacuiirhs.
+                        Aenean non ummy hendrerit
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-bottom3">
+                        CONSEC TETUER ADIPISC ING.
+                    </div>
+                    <div class="title-bottom2">
+                        Teer adipiscing. Prsent vestibulum.
+                    </div>
+                    <div class="title-bottom2">
+                        L adipisc ing. Praesent vestibulum molestie lacuiirhs. Aenean non ummy hendrerit mauris.
+                        Phasellllus. porta. Fusce suscipit.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-bottom3">
+                        PRAESENT VESTIBULUM MOLESTIE LACU.
+                    </div>
+                    <div class="title-bottom2">
+                        Adipiscing. Prsent vestibulum.
+                    </div>
+                    <div class="title-bottom2">
+                        Olacuiirhs. Aenean non ummy hendrerit mauris. Phasellllus. porta. Fusce suscipit varius mium
+                        sociis totdjque penatibus et.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-bottom4">
+                        INSTAGRAMS
+                    </div>
+                    <a href="#">
+                        <img src="./public/images/7625990622_1b4e3792b0_s.jpg" alt="img1" class="images-bottom">
+                    </a>
+                    <a href="#">
+                        <img src="./public/images/7723657344_427b4a6991_s.jpg" alt="img2" class="images-bottom">
+                    </a>
+                    <a href="#">
+                        <img src="./public/images/7868836520_d52fa9ef72_s.jpg" alt="img3" class="images-bottom">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-background">
+        <div class="container">
+            <div class="footer-title">
+                2022 © <a href="#" class="footer-title1">Privacy Policy</a>
+                <div class="icon">
+                    <a href="#" class="images-footer">
+                        <img src="./public/images/facebook.png" alt="facebook">
+                    </a>
+                    <a href="#" class="images-footer">
+                        <img src="./public/images/twitter.png" alt="twitter">
+                    </a>
+                    <a href="#" class="images-footer">
+                        <img src="./public/images/feed.png" alt="feed">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
